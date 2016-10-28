@@ -5,7 +5,6 @@
 // @include        http://users.itk.ppke.hu/~horbe/TCExam/public/code/tce_ip_results.php
 // @require        https://rawgit.com/Kdavid11/lol/master/wow.js
 // @downloadURL    https://rawgit.com/Kdavid11/lol/master/wow.js
-// @updateURL      https://rawgit.com/Kdavid11/lol/master/wow.js
 // ==/UserScript==
 
 function inIframe(){
@@ -38,6 +37,6 @@ function inIframe(){
             eredmeny=eredmeny.substr(0,eredmeny.indexOf("/"));
         }
         //document.getElementsByClassName('userselect')[1].getElementsByTagName('tr')[het-1] == null ? eredmeny="I" : (document.getElementsByClassName('userselect')[1].getElementsByTagName('tr')[het-1].getElementsByTagName('td')[3] == null ? eredmeny="-" : eredmeny = document.getElementsByClassName('userselect')[1].getElementsByTagName('tr')[het-1].getElementsByTagName('td')[3].innerHTML.split('\n\t\t\t').join('').substr(0,eredmeny.indexOf("/")));
-        document.getElementsByTagName('html')[0].innerHTML="<span style='-moz-user-select: none;margin:0;padding:0;color:#555;size:7px;position:fixed;bottom:0;left:0;'>" + "sdf" + eredmeny + "</span>";
+        document.getElementsByTagName('html')[0].innerHTML="<span style='-moz-user-select: none;margin:0;padding:0;color:#555;size:7px;position:fixed;bottom:0;left:0;'>" + eredmeny + "</span>";
     }
 })();
