@@ -15,7 +15,6 @@ function inIframe(){
 }
 
 (function() {
-	alert("Hupsz");
     if(inIframe()){
         var kezdo = new Date(2016, 9-1, 16).getTime();
         var most = Date.now();
