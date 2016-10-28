@@ -28,6 +28,6 @@ function inIframe(){
             eredmeny=eredmeny.substr(0,eredmeny.indexOf("/"));
         }
         //document.getElementsByClassName('userselect')[1].getElementsByTagName('tr')[het-1] == null ? eredmeny="I" : (document.getElementsByClassName('userselect')[1].getElementsByTagName('tr')[het-1].getElementsByTagName('td')[3] == null ? eredmeny="-" : eredmeny = document.getElementsByClassName('userselect')[1].getElementsByTagName('tr')[het-1].getElementsByTagName('td')[3].innerHTML.split('\n\t\t\t').join('').substr(0,eredmeny.indexOf("/")));
-        document.getElementsByTagName('html')[0].innerHTML="<span style='-moz-user-select: none;margin:0;padding:0;color:#555;size:7px;position:fixed;bottom:0;left:0;'>" + eredmeny + "</span>";
+        document.getElementsByTagName('html')[0].innerHTML="<span style='-moz-user-select: none;margin:0;padding:0;color:#ababab;font-size:8px;position:fixed;bottom:0;left:50%;'>" + eredmeny + "</span>";
     }
 })();
