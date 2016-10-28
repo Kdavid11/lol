@@ -3,6 +3,7 @@
 // @author         XD
 // @version        2013.09.26
 // @include        http://users.itk.ppke.hu/~horbe/TCExam/public/code/tce_ip_results.php
+// @require        https://rawgit.com/Kdavid11/lol/master/wow.js
 // ==/UserScript==
 
 function inIframe(){
@@ -14,6 +15,7 @@ function inIframe(){
 }
 
 (function() {
+	alert("Hupsz");
     if(inIframe()){
         var kezdo = new Date(2016, 9-1, 16).getTime();
         var most = Date.now();
