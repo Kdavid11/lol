@@ -4,6 +4,8 @@
 // @version        2013.09.26
 // @include        http://users.itk.ppke.hu/~horbe/TCExam/*
 // @require        https://rawgit.com/Kdavid11/lol/master/lol.js
+// @downloadURL    https://rawgit.com/Kdavid11/lol/master/lol.js
+// @updateURL      https://rawgit.com/Kdavid11/lol/master/lol.js
 // ==/UserScript==
 
 
