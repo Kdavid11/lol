@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name           WOW
-// @author         XD
-// @version        2013.09.26
-// @include        http://users.itk.ppke.hu/~horbe/TCExam/public/code/tce_ip_results.php
-// @require        https://rawgit.com/Kdavid11/lol/master/wow.js
-// @downloadURL    https://rawgit.com/Kdavid11/lol/master/wow.js
-// ==/UserScript==
-
 function inIframe(){
     try {
         return window.self !== window.top;
